@@ -5,6 +5,6 @@ The purpose of making the bot's code public was to explain the working of the bo
 
 The usage of this code is not restricted but proper credits would be highly appreciated.
 
-For [Support Click here](https://discord.gg/sKGE96fzcd)
+# For [Support Click here](https://discord.gg/sKGE96fzcd)
 
-[Add the bot](https://discord.com/oauth2/authorize?client_id=805123331618635816&scope=bot&permissions=2147483647) 
+# [Add the bot](https://discord.com/oauth2/authorize?client_id=805123331618635816&scope=bot&permissions=2147483647) 
