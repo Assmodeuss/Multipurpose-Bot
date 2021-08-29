@@ -7,7 +7,6 @@ authors = ["Your Name <you@example.com>"]
 [tool.poetry.dependencies]
 python = "^3.8"
 colorama = "^0.4.4"
-discord = "^1.7.3"
 steam = "^1.2.0"
 youtube_dl = "^2021.6.6"
 aiohttp = "^3.7.4"

@@ -81,5 +81,47 @@ if __name__ == "__main__":
         print (f"Error loading {extension}", file=sys.stderr)
         traceback.print_exc()
 
-              
+@bot.command(
+        name="logout",
+        aliases=["disconnect", "close", "stopbot", "die"],
+        description="Log the bot out of discord!",
+    )
+@commands.is_owner()
+async def logout(ctx):
+        """
+            If the user running the command owns the bot then this will disconnect the bot from discord.
+            """
+        embed3 = discord.Embed(
+            title="Logging out...",
+            color=0xdF7C00,
+            description=
+            f"All proccess are getting terminated and bot is looging out in __**3**__ "
+        )
+        embed2 = discord.Embed(
+            title="Logging out...",
+            color=0xdF4D00,
+            description=
+            f"All proccess are getting terminated and bot is looging out in __**2**__ "
+        )
+        embed1 = discord.Embed(
+            title="Logging out...",
+            color=0xdF1300,
+            description=
+            f"All proccess are getting terminated and bot is looging out in __**1**__ "
+        )
+        embed = discord.Embed(
+            title="Logged out...",
+            color=000000,
+            description=
+            f"All proccess are succefully terminated and the bot is logged out "
+        )
+        message = await ctx.send(embed=embed3)
+        await asyncio.sleep(1)
+        await message.edit(embed=embed2)
+        await asyncio.sleep(1)
+        await message.edit(embed=embed1)
+        await asyncio.sleep(1)
+        await message.edit(embed=embed)
+        await bot.logout()
+            
 bot.run(os.getenv('TOKEN'))

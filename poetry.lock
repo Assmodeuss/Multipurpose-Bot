@@ -107,17 +107,6 @@ aiohttp = "*"
 ratelimiter = "*"
 
 [[package]]
-name = "discord"
-version = "1.7.3"
-description = "A mirror package for discord.py. Please install that instead."
-category = "main"
-optional = false
-python-versions = "*"
-
-[package.dependencies]
-"discord.py" = ">=1.7.3"
-
-[[package]]
 name = "discord.py"
 version = "1.7.3"
 description = "A Python wrapper for the Discord API"
@@ -263,7 +252,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "88de1be5f07240213486e092f3dfa0b3f71f07636a193f1fed8d85f450a8702a"
+content-hash = "330073736913bfd83f894c0e948da633f2b62d1a25a392f4115b37e22b380aac"
 
 [metadata.files]
 aiohttp = [
@@ -340,10 +329,6 @@ colorama = [
 dblpy = [
     {file = "dblpy-0.4.0-py3-none-any.whl", hash = "sha256:2d7d746ee7e7b3a2597f485ebf4089e7baabdcf1717743228991bd988c69e1b5"},
     {file = "dblpy-0.4.0.tar.gz", hash = "sha256:744f5ee9493a945e5907466754b2dce4735715b34daabb9e6264f76ec79818c9"},
-]
-discord = [
-    {file = "discord-1.7.3-py3-none-any.whl", hash = "sha256:248d728356e149c818a81b94659047a19305ea1623d4810bbb342f6b7df55f36"},
-    {file = "discord-1.7.3.tar.gz", hash = "sha256:846dd3d66888c2e0a8bd9120d8778a0fe088c003a7f6451668497f14e322a304"},
 ]
 "discord.py" = [
     {file = "discord.py-1.7.3-py3-none-any.whl", hash = "sha256:c6f64db136de0e18e090f6752ea68bdd4ab0a61b82dfe7acecefa22d6477bb0c"},

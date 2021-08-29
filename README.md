@@ -1,4 +1,4 @@
-# [Perseus](https://discord.com/oauth2/authorize?client_id=805123331618635816&scope=bot&permissions=2147483647)
+ # [Perseus](https://discord.com/oauth2/authorize?client_id=805123331618635816&scope=bot&permissions=2147483647)
 
 [A true-Multipurpose bot.](https://discord.gg/sKGE96fzcd)
 The purpose of making the bot's code public was to explain the working of the bot.
