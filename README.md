@@ -8,3 +8,5 @@ The usage of this code is not restricted but proper credits would be highly appr
 # For [Support Click here](https://discord.gg/sKGE96fzcd)
 
 # [Add the bot](https://discord.com/oauth2/authorize?client_id=805123331618635816&scope=bot&permissions=2147483647) 
+
+# Not being maintained and hosting now.
